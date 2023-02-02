@@ -340,7 +340,7 @@ const Services = () => {
                         </div>
                         <div className='col-span-4 '>
 
-                            <div class="max-w-sm hover:shadow-lg hover:animate-bounce hover:delay-75 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                            <div class="max-w-sm hover:shadow-lg  bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                                 <a href="#">
                                     <img class="rounded-t-lg" src="/service/card.jpg" alt="" />
                                 </a>

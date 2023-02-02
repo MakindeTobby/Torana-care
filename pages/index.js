@@ -10,10 +10,7 @@ import { useInView } from 'react-intersection-observer';
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
-  const { ref: myRef, inView: isActive, } = useInView({
-    threshold: 1,
-    delay: 1000
-  });
+  const { ref: myRef, inView: isActive, } = useInView();
   const { ref: caro, inView: activeCaro, } = useInView();
   const { ref: caro1, inView: activeCaro1, } = useInView();
   const { ref: caro2, inView: activeCaro2, } = useInView();
@@ -30,9 +27,9 @@ export default function Home() {
   return (
     <>
       <div className="h-[70vh] sm:h-[30vh] xl:h-[70vh] 2xl:h-96 rounded-none mb-5">
-        <Carousel rounded='false' >
+        <Carousel rounded='false' slide={false}>
           {/* slide 1 */}
-          <div className="flex  items-center justify-center">
+          <div className="flex h-[70vh] items-center justify-center">
             <div className={styles.caro + ' grid-cols-2 flex justify-start lg:pl-20 sm:pl-2 lg:pt-40 md:pt-20  md:pl-10 sm:pt-40  w-full'}>
               <div className={`${activeCaro ? (styles.slide) : ''} lg:w-[36%] sm:w-full flex flex-col gap-5`} ref={caro}>
                 <h1 className='text-4xl'>
