@@ -30,7 +30,7 @@ export default function Social() {
                            
                             <span className=''>
                             We provide innovative community participation planning and support provision to our participants. We will work with you and your support network,
-                           to determine the best kind of social support you may engage in, to help you achieve your goals.
+                           to determine the best kind of social support you may engage in, to help you achieve your goals
                             </span>
                             <span className=''>
                             Are you worried about being home most of the time?
