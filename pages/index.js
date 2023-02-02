@@ -10,7 +10,14 @@ import { useInView } from 'react-intersection-observer';
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
-  const { ref: myRef, inView: isActive, } = useInView();
+  const { ref: myRef, inView: isActive, } = useInView({
+    threshold: 1,
+    delay: 1000
+  });
+  const { ref: caro, inView: activeCaro, } = useInView();
+  const { ref: caro1, inView: activeCaro1, } = useInView();
+  const { ref: caro2, inView: activeCaro2, } = useInView();
+  const { ref: caro3, inView: activeCaro3, } = useInView();
   // const myRef = useRef(null)
   // const [isActive, setIsActive] = useState()
   // useEffect(() => {
@@ -22,14 +29,15 @@ export default function Home() {
   // }, [])
   return (
     <>
-      <div className="h-[70vh] sm:h-68 xl:h-[70vh] 2xl:h-96 rounded-none mb-5">
+      <div className="h-[70vh] sm:h-[30vh] xl:h-[70vh] 2xl:h-96 rounded-none mb-5">
         <Carousel rounded='false' >
-          <div className=" h-full bg-gray-100 dark:bg-gray-700 dark:text-white">
+          {/* slide 1 */}
+          <div className="flex  items-center justify-center">
             <div className={styles.caro + ' grid-cols-2 flex justify-start lg:pl-20 sm:pl-2 lg:pt-40 md:pt-20  md:pl-10 sm:pt-40  w-full'}>
-              <div className='lg:w-[36%] sm:w-full flex flex-col gap-5'>
-                <h1 className='text-5xl animate-bounce '>
-                  We are ready to go
-                  <span className='font-bold'> on your life's journey with you</span>
+              <div className={`${activeCaro ? (styles.slide) : ''} lg:w-[36%] sm:w-full flex flex-col gap-5`} ref={caro}>
+                <h1 className='text-4xl'>
+                  We provide special disability suppport service
+                  <span className='font-bold'> supervise by a specialist GP 24/7</span>
 
                 </h1>
                 <span>
@@ -42,12 +50,13 @@ export default function Home() {
 
             </div>
           </div>
-          <div className="flex  h-full items-center justify-center bg-gray-400 dark:bg-gray-700 dark:text-white">
+          {/* slide 2 */}
+          <div className="flex  h-full items-center justify-center ">
             <div className={styles.caro + ' grid-cols-2 flex justify-start lg:pl-20 sm:pl-2 lg:pt-40 sm:pt-20  w-full'}>
-              <div className='lg:w-[36%] sm:w-full flex flex-col gap-5'>
-                <h1 className='text-5xl '>
-                  We are ready to go
-                  <span className='font-bold'> on your life's journey with you</span>
+              <div className={`${activeCaro1 ? (styles.slide) : ''} lg:w-[36%] sm:w-full flex flex-col gap-5`} ref={caro1}>
+                <h1 className='text-4xl '>
+                  Our support and services are tailored
+                  <span className='font-bold'> to meet your needs</span>
 
                 </h1>
                 <span>
@@ -60,12 +69,32 @@ export default function Home() {
 
             </div>
           </div>
-          <div className="flex h-full items-center justify-center bg-gray-400 dark:bg-gray-700 dark:text-white">
+          {/* slide 3*/}
+          <div className="flex  h-full items-center justify-center ">
             <div className={styles.caro + ' grid-cols-2 flex justify-start lg:pl-20 sm:pl-2 lg:pt-40 sm:pt-20  w-full'}>
-              <div className='lg:w-[36%] sm:w-full flex flex-col gap-5'>
+              <div className={`${activeCaro2 ? (styles.slide) : ''} lg:w-[36%] sm:w-full flex flex-col gap-5`} ref={caro2}>
+                <h1 className='text-4xl '>
+                  We are ready to go on your
+                  <span className='font-bold'> life's journey with you</span>
+
+                </h1>
+                <span>
+                  <button type="button"
+
+                    className="w-[40%] text-white bg-red-700 hover:bg-red-600 focus:ring-4 focus:ring-red-300 font-medium rounded  px-5 py-4">
+                    Work with us</button>
+                </span>
+              </div>
+
+            </div>
+          </div>
+          {/* slide 4 */}
+          <div className="flex h-full items-center justify-center">
+            <div className={styles.caro + ' grid-cols-2 flex justify-start lg:pl-20 sm:pl-2 lg:pt-40 sm:pt-20  w-full'}>
+              <div className={`${activeCaro3 ? (styles.slide) : ''} lg:w-[36%] sm:w-full flex flex-col gap-5`} ref={caro3}>
                 <h1 className='text-5xl '>
-                  We are ready to go
-                  <span className='font-bold'> on your life's journey with you</span>
+                  Let's make your life
+                  <span className='font-bold'> easier</span>
 
                 </h1>
                 <span>
@@ -122,7 +151,7 @@ export default function Home() {
               <img src='/tss1.png' />
             </div>
 
-            <div className={`${isActive ? (styles.anim) : ''} col-span-6 flex flex-col gap-10 pt-20`} ref={myRef}>
+            <div className={`${isActive ? (styles.slide) : ''} col-span-6 flex flex-col gap-10 pt-20`} ref={myRef}>
               <span className='text-red-700 text-xl font-bold'>What is our mission ?</span>
               <h1 className='lg:text-5xl md:text-3xl sm:text-3xl'>
                 Building The Capacity Of Persons Living With A Disability, <span className='font-bold'>To Live Their Lives Beyond Limit.</span>
