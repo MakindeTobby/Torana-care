@@ -1,0 +1,14 @@
+.first {
+    border: 2px;
+}
+
+.down {
+    background-image: url('/tss2.jpg');
+    /* background-color: red; */
+    width: 100%;
+    height: 30vh;
+    background-position: center;
+    background-size: cover;
+    background-color: #1e40af;
+    background-blend-mode: multiply;
+}
