@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from '@/styles/Service.module.css'
 // import styles from './styles.module.css'
+import Link from 'next/link'
 
 export default function Assistive() {
   return (
@@ -41,7 +42,7 @@ export default function Assistive() {
                     </div>
 
                 </div>
-                <div className='col-span-6 flex flex-col gap-4 lg:px-7 md:px-0 sm:px-3 py-4'>
+                <div className='col-span-6 flex flex-col gap-4 md:px-0 sm:px-3 py-4'>
                             <span className='text-black-700 text-xl font-bold uppercase'></span>
                             <span className=''>                   
                             Participants are able to use their existing NDIS funding to purchase an item if: 
@@ -78,10 +79,10 @@ export default function Assistive() {
                            </span>
 
                         </div>
-                        <div className='pt-10 lg:px-7 md:px-0 sm:px-3'>
+                        <div className='pt-10 md:px-0 sm:px-3'>
           <button type="button"
           className="lg:w-[15%] md:w-[20%] sm:w-[100%] text-white bg-red-700 hover:bg-red-600 focus:ring-4 focus:ring-red-300 font-medium rounded  px-5 py-4">
-          Contact Us</button>
+          <Link href={"/contact"} >Contact Us</Link></button>
           </div>
             </div>
            
