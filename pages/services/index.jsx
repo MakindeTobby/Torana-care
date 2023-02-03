@@ -20,12 +20,12 @@ const Services = () => {
 
             </div>
 
-            <div className="max-w-screen-xl px-4 py-8 mx-auto sm:px-6 lg:px-8">
+            <div className="max-w-screen-xl px-4 py-8 mt-5 mx-auto sm:px-6 lg:px-8">
                 <div className="lg:flex lg:items-start lg:gap-8">
 
                     <div className="grid gap-8  lg:mt-0 lg:grid-cols-12 lg:gap-y-16 md:grid-cols-6 sm:grid-cols-6">
 
-                        <div className='col-span-6 flex flex-col gap-10 pt-20'>
+                        <div className='col-span-6 flex flex-col gap-10'>
                             <span className='text-red-700 text-xl font-bold'>WHAT WE DO</span>
                             <h1 className='lg:text-4xl md:text-3xl sm:text-3xl'>
 
@@ -35,7 +35,7 @@ const Services = () => {
 
                         </div>
                         <div className='col-span-6'>
-                            <img src='/tss1.png' />
+                            <img src='/service/job-seeker-on-wheel.jpg' />
                         </div>
 
                     </div>
@@ -58,7 +58,7 @@ const Services = () => {
 
                             <div className="max-w-sm  bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                                 <a href="#">
-                                    <img className="rounded-t-lg" src="/service/card.jpg" alt="" />
+                                    <img className="rounded-t-lg" src="/service/nursing.jpeg" alt="" />
                                 </a>
                                 <div className="p-5">
                                     <a href="#">
@@ -77,11 +77,11 @@ const Services = () => {
                             </div>
                         </div>
 
-                        <div className='col-span-4   '>
+                        <div className='col-span-4 '>
 
-                            <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-                                <a href="#">
-                                    <img className="rounded-t-lg" src="/service/card.jpg" alt="" />
+                            <div className="max-w-sm  bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                                <a href="#" >
+                                    <img className="rounded-t-lg" src="/service/behaviour-suppport.jpeg" alt="" />
                                 </a>
                                 <div className="p-5">
                                     <a href="#">
@@ -101,7 +101,7 @@ const Services = () => {
 
                             <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                                 <a href="#">
-                                    <img className="rounded-t-lg" src="/service/card.jpg" alt="" />
+                                    <img className="rounded-t-lg" src="/service/social-support.jpeg" alt="" />
                                 </a>
                                 <div className="p-5">
                                     <a href="#">
@@ -121,7 +121,7 @@ const Services = () => {
 
                             <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                                 <a href="#">
-                                    <img className="rounded-t-lg" src="/service/card.jpg" alt="" />
+                                    <img className="rounded-t-lg" src="/service/therapeutic.jpeg" alt="" />
                                 </a>
                                 <div className="p-5">
                                     <a href="#">
@@ -141,7 +141,7 @@ const Services = () => {
 
                             <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                                 <a href="#">
-                                    <img className="rounded-t-lg" src="/service/card.jpg" alt="" />
+                                    <img className="rounded-t-lg" src="/service/household.jpeg" alt="" />
                                 </a>
                                 <div className="p-5">
                                     <a href="#">
@@ -161,7 +161,7 @@ const Services = () => {
 
                             <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                                 <a href="#">
-                                    <img className="rounded-t-lg" src="/service/card.jpg" alt="" />
+                                    <img className="rounded-t-lg" src="/service/exercise.png" alt="" />
                                 </a>
                                 <div className="p-5">
                                     <a href="#">
@@ -181,7 +181,7 @@ const Services = () => {
 
                             <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                                 <a href="#">
-                                    <img className="rounded-t-lg" src="/service/card.jpg" alt="" />
+                                    <img className="rounded-t-lg" src="/service/paint.jpg" alt="" />
                                 </a>
                                 <div className="p-5">
                                     <a href="#">
@@ -201,7 +201,7 @@ const Services = () => {
 
                             <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                                 <a href="#">
-                                    <img className="rounded-t-lg" src="/service/card.jpg" alt="" />
+                                    <img className="rounded-t-lg" src="/service/specialist.jpeg" alt="" />
                                 </a>
                                 <div className="p-5">
                                     <a href="#">
@@ -221,7 +221,7 @@ const Services = () => {
 
                             <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                                 <a href="#">
-                                    <img className="rounded-t-lg" src="/service/card.jpg" alt="" />
+                                    <img className="rounded-t-lg" src="/service/complex-health.jpeg" alt="" />
                                 </a>
                                 <div className="p-5">
                                     <a href="#">
@@ -241,7 +241,7 @@ const Services = () => {
 
                             <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                                 <a href="#">
-                                    <img className="rounded-t-lg" src="/service/card.jpg" alt="" />
+                                    <img className="rounded-t-lg" src="/service/sb1.jpg" alt="" />
                                 </a>
                                 <div className="p-5">
                                     <a href="#">
@@ -261,7 +261,7 @@ const Services = () => {
 
                             <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                                 <a href="#">
-                                    <img className="rounded-t-lg" src="/service/card.jpg" alt="" />
+                                    <img className="rounded-t-lg" src="/service/assistive-support.jpeg" alt="" />
                                 </a>
                                 <div className="p-5">
                                     <a href="#">
@@ -281,7 +281,7 @@ const Services = () => {
 
                             <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                                 <a href="#">
-                                    <img className="rounded-t-lg" src="/service/card.jpg" alt="" />
+                                    <img className="rounded-t-lg" src="/service/capacity-build.jpeg" alt="" />
                                 </a>
                                 <div className="p-5">
                                     <a href="#">
@@ -302,7 +302,7 @@ const Services = () => {
 
                             <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                                 <a href="#">
-                                    <img className="rounded-t-lg" src="/service/card.jpg" alt="" />
+                                    <img className="rounded-t-lg" src="/service/sb1.jpg" alt="" />
                                 </a>
                                 <div className="p-5">
                                     <a href="#">
@@ -318,11 +318,11 @@ const Services = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className='col-span-4   '>
+                        <div className='col-span-4'>
 
                             <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                                 <a href="#">
-                                    <img className="rounded-t-lg" src="/service/card.jpg" alt="" />
+                                    <img className="rounded-t-lg" src="/service/support-cordinate.jpeg" alt="" width='100%' />
                                 </a>
                                 <div className="p-5">
                                     <a href="#">
@@ -342,7 +342,7 @@ const Services = () => {
 
                             <div className="max-w-sm hover:shadow-lg  bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                                 <a href="#">
-                                    <img className="rounded-t-lg" src="/service/card.jpg" alt="" />
+                                    <img className="rounded-t-lg" src="/service/cald.jpeg" alt="" />
                                 </a>
                                 <div className="p-5">
                                     <a href="#">

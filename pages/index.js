@@ -140,12 +140,12 @@ export default function Home() {
         </Card>
       </div> */}
 
-      <div className="max-w-screen-xl px-4 py-8 mx-auto sm:px-6 lg:px-8">
+      <div className="max-w-screen-xl px-4 py-8 mx-auto mt-5 sm:px-6 lg:px-8">
         <div className="lg:flex lg:items-start lg:gap-8">
 
           <div className="grid gap-8  lg:mt-0 lg:grid-cols-12 lg:gap-y-16 md:grid-cols-6 sm:grid-cols-6">
             <div className='col-span-6'>
-              <img src='/dimitri.jpeg' />
+              <img src='/wheel-pics.jpeg' />
             </div>
 
             <div className={`${isActive ? (styles.slide) : ''} col-span-6 flex flex-col gap-10 `} ref={myRef}>
@@ -170,12 +170,12 @@ export default function Home() {
       </div>
 
 
-      <div className="max-w-screen-xl px-4 py-8 mx-auto sm:px-6 lg:px-8">
+      <div className="max-w-screen-xl px-4 py-8 mx-auto mt-5 sm:px-6 lg:px-8">
         <div className="lg:flex lg:items-start lg:gap-8">
 
           <div className="grid gap-8  lg:mt-0 lg:grid-cols-12 lg:gap-y-16 md:grid-cols-6 sm:grid-cols-6">
 
-            <div className='col-span-6 flex flex-col gap-10 pt-20'>
+            <div className='col-span-6 flex flex-col gap-10'>
               <span className='text-red-700 text-xl font-bold'>LET US WORK TOGETHER</span>
               <h1 className='lg:text-4xl md:text-3xl sm:text-3xl'>
 
@@ -189,7 +189,7 @@ export default function Home() {
                 CONTACT US</button>
             </div>
             <div className='col-span-6'>
-              <img src='/tss1.png' />
+              <img src='/dimitri.jpeg' />
             </div>
           </div>
 

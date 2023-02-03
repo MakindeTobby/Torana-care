@@ -16,12 +16,12 @@ const About = () => {
                 </div>
 
             </div>
-            <div className="max-w-screen-xl px-4 py-8 mx-auto sm:px-6 lg:px-8">
+            <div className="max-w-screen-xl px-4 py-8 mx-auto mt-5 sm:px-6 lg:px-8">
                 <div className="lg:flex lg:items-start lg:gap-8">
 
                     <div className="grid gap-8  lg:mt-0 lg:grid-cols-12 lg:gap-y-16 md:grid-cols-6 sm:grid-cols-6">
 
-                        <div className='col-span-6 flex flex-col gap-8 pt-20'>
+                        <div className='col-span-6 flex flex-col gap-8'>
                             <span className='text-red-700 text-xl font-bold uppercase'>About Torana Care Australia</span>
                             <h1 className='lg:text-4xl md:text-4xl sm:text-4xl'>
 
@@ -34,7 +34,7 @@ const About = () => {
 
                         </div>
                         <div className='col-span-6'>
-                            <img src='/tss1.png' />
+                            <img src='/about/hands.webp' />
                         </div>
 
                     </div>
@@ -59,14 +59,14 @@ const About = () => {
                 </div>
 
             </div>
-            <div className="max-w-screen-xl px-4 py-8 mx-auto sm:px-6 lg:px-8">
+            <div className="max-w-screen-xl px-4 py-8 mx-auto mt-5 sm:px-6 lg:px-8">
                 <div className="lg:flex lg:items-start lg:gap-8">
 
                     <div className="grid gap-8 mt-8 lg:mt-0 lg:grid-cols-12 lg:gap-y-16 md:grid-cols-6 sm:grid-cols-6">
                         <div className='col-span-6 flex justify-center items-center'>
                             <img src='/about/mission.png' width={'50%'} />
                         </div>
-                        <div className='col-span-6 flex flex-col gap-4 pt-20'>
+                        <div className='col-span-6 flex flex-col gap-4'>
                             <span className='text-red-700 text-xl font-bold uppercase'>OUR Mission</span>
                             <span className=''>
                                 Helping people with disabilities live their lives beyond limits by inspiring them effectively,
@@ -88,12 +88,12 @@ const About = () => {
 
                 </div>
             </div>
-            <div className="max-w-screen-xl px-4 py-8 mx-auto sm:px-6 lg:px-8">
+            <div className="max-w-screen-xl px-4 py-8 mx-auto mt-5 sm:px-6 lg:px-8">
                 <div className="lg:flex lg:items-start lg:gap-8">
 
                     <div className="grid gap-8 mt-8 lg:mt-0 lg:grid-cols-12 lg:gap-y-16 md:grid-cols-6 sm:grid-cols-6">
 
-                        <div className='col-span-6 flex flex-col gap-4 pt-20'>
+                        <div className='col-span-6 flex flex-col gap-4'>
                             <span className='text-red-700 text-xl font-bold uppercase'>our vision</span>
                             <span className=''>
                                 To create a world where people living with disability can compete with everyone else in all spheres of life
