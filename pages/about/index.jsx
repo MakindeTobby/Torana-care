@@ -9,14 +9,14 @@ const About = () => {
                 <div className=' gap-4 pt-20 lg:pl-20 xl:pl-32 md:pl-20 sm:pl-20 lg:justify-start md:justify-center sm:justify-center items-center'>
 
 
-                    <h1 className='text-white font-bold text-5xl text-left'>
+                    <h1 className='text-white font-bold text-5xl text-left animate__animated animate__fadeInRight'>
                         ABOUT US
                     </h1>
 
                 </div>
 
             </div>
-            <div className="max-w-screen-xl px-4 py-8 mx-auto mt-5 sm:px-6 lg:px-8">
+            <div className="max-w-screen-xl px-4 py-8 mx-auto mt-5 sm:px-6 lg:px-8 animate__animated animate__fadeInUp">
                 <div className="lg:flex lg:items-start lg:gap-8">
 
                     <div className="grid gap-8  lg:mt-0 lg:grid-cols-12 lg:gap-y-16 md:grid-cols-6 sm:grid-cols-6">

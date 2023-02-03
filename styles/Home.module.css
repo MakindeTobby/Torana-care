@@ -45,7 +45,7 @@
 
 
 .slide {
-  animation: myAnim 2s ease 0s 1 normal forwards;
+  animation: myAnim 3s ease 0s 1 normal forwards;
 }
 
 @keyframes myAnim {

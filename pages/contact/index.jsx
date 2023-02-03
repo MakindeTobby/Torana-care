@@ -9,7 +9,7 @@ const Contact = () => {
                 <div className=' gap-4 pt-20 lg:pl-20 xl:pl-32 md:pl-20 sm:pl-20 lg:justify-start md:justify-center sm:justify-center items-center'>
 
 
-                    <h1 className='text-white font-bold text-5xl text-left'>
+                    <h1 className='text-white font-bold text-5xl text-left animate__animated animate__fadeInRight'>
                         CONTACT US
                     </h1>
 
@@ -18,18 +18,19 @@ const Contact = () => {
             </div>
             <div className=" w-full bg-slate-100 flex justify-center mt-3 py-10" >
                 <div className='flex flex-col gap-4 pt-10 justify-center items-center lg:w-1/2 md:w-full sm:w-full'>
-                    <span className='text-5xl text-center'>
+                    <span className='text-5xl text-center animate__animated animate__fadeInLeft'>
                         WE ARE ALWAYS
-                        <span className='font-bold'> AVAILABE AT YOUR SERVICE.</span>
+                        <span className='font-extrabold'> AVAILABE AT YOUR SERVICE.</span>
                     </span>
 
 
 
-                    <span className='text-center'>Come and visit our quarters or simply send us an email anytime you want </span>
+                    <span className='text-center animate__animated animate__fadeInRight'>
+                        Come and visit our quarters or simply send us an email anytime you want </span>
 
                 </div>
             </div>
-            <div className="max-w-screen-xl px-4  mx-auto sm:px-6 lg:px-8 mt-3">
+            <div className="max-w-screen-xl px-4  mx-auto sm:px-6 lg:px-8 mt-3 animate__animated animate__fadeInUp">
                 <div className="lg:flex lg:items-start lg:gap-8">
 
                     <div className="grid lg:gap-8  mt-8 lg:mt-0 lg:grid-cols-12 lg:gap-y-16 md:grid-cols-8 sm:grid-cols-4">

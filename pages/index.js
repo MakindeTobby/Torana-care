@@ -6,6 +6,7 @@ import styles from '@/styles/Home.module.css'
 import { Card, Carousel } from 'flowbite-react'
 import { FaPlay } from 'react-icons/fa'
 import { useInView } from 'react-intersection-observer';
+import Link from 'next/link'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -175,7 +176,7 @@ export default function Home() {
 
           <div className="grid gap-8  lg:mt-0 lg:grid-cols-12 lg:gap-y-16 md:grid-cols-6 sm:grid-cols-6">
 
-            <div className='col-span-6 flex flex-col gap-10'>
+            <div className='col-span-6 flex flex-col gap-8'>
               <span className='text-red-700 text-xl font-bold'>LET US WORK TOGETHER</span>
               <h1 className='lg:text-4xl md:text-3xl sm:text-3xl'>
 
@@ -186,7 +187,8 @@ export default function Home() {
               <button type="button"
 
                 className="lg:w-[40%] md:w-full sm:w-full text-white bg-red-700 hover:bg-red-600 focus:ring-4 focus:ring-red-300 font-medium rounded  px-5 py-4">
-                CONTACT US</button>
+                <Link href={'/contact'}>
+                  CONTACT US</Link> </button>
             </div>
             <div className='col-span-6'>
               <img src='/dimitri.jpeg' />
@@ -214,7 +216,7 @@ export default function Home() {
           </h1>
           <button type="button"
 
-            className="llg:w-[40%] md:w-[60%] sm:w-[100%] text-white bg-red-700 hover:bg-red-600 focus:ring-4 focus:ring-red-300 font-medium rounded  px-5 py-4">
+            className="lg:w-[35%] md:w-[60%] sm:w-[100%] text-white bg-red-700 hover:bg-red-600 focus:ring-4 focus:ring-red-300 font-medium rounded  px-5 py-4">
             GET IN TOUCH WITH US TODAY</button>
 
         </div>

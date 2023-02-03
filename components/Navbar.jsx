@@ -85,8 +85,8 @@ export default function NavBar() {
                         CAREERS
                     </Navbar.Link>
                     <Navbar.Link
-                        className='font-bold text-gray-700 hover:text-red-500'
-                        href="/navbars"
+                        className='font-bold text-gray-700 hover:text-red-500 border-b-4 border-red-700'
+                        href="/covid-19-update"
                     >
                         COVID -19 UPDATE
                     </Navbar.Link>
