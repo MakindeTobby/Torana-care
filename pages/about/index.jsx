@@ -6,7 +6,7 @@ const About = () => {
         <>
 
             <div className={styles.header + ' w-full mt-2'}  >
-                <div className='flex  gap-4 pt-20 pl-20 justify-start items-center'>
+                <div className=' gap-4 pt-20 lg:pl-20 xl:pl-32 md:pl-20 sm:pl-20 lg:justify-start md:justify-center sm:justify-center items-center'>
 
 
                     <h1 className='text-white font-bold text-5xl text-left'>
@@ -23,9 +23,9 @@ const About = () => {
 
                         <div className='col-span-6 flex flex-col gap-8 pt-20'>
                             <span className='text-red-700 text-xl font-bold uppercase'>About Torana Care Australia</span>
-                            <h1 className='lg:text-5xl md:text-4xl sm:text-4xl'>
+                            <h1 className='lg:text-4xl md:text-4xl sm:text-4xl'>
 
-                                We Strengthen The <span className='font-bold'>“WILL” Of Our Participants... </span>
+                                We Strengthen The <span className='font-extrabold'>“WILL” Of Our Participants... </span>
                             </h1>
                             <span className=''>We Understand The Needs Of Persons Living With Disability From Medical, Technological And Social Standpoints.
                                 We Believe That, Any Human Being Is As Strong As Their "WILL" To Achieve Set Goals, Irrespective Of Their Disability.

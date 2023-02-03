@@ -26,21 +26,21 @@ export default function Home() {
   // }, [])
   return (
     <>
-      <div className="h-[70vh] sm:h-[30vh] xl:h-[70vh] 2xl:h-96 rounded-none mb-5">
-        <Carousel rounded='false' slide={false}>
+      <div className="h-[70vh] sm:h-[50vh] xl:h-[70vh] 2xl:h-96 rounded-none mb-5">
+        <Carousel rounded='false'>
           {/* slide 1 */}
-          <div className="flex h-[70vh] items-center justify-center">
-            <div className={styles.caro + ' grid-cols-2 flex justify-start lg:pl-20 sm:pl-2 lg:pt-40 md:pt-20  md:pl-10 sm:pt-40  w-full'}>
+          <div className="flex lg:h-[70vh] md:h-[50vh] sm:h-[50vh] xl:h-[70vh] items-center justify-center">
+            <div className={styles.caro + ' grid-cols-2 flex justify-start pl-20  pt-40  w-full'}>
               <div className={`${activeCaro ? (styles.slide) : ''} lg:w-[36%] sm:w-full flex flex-col gap-5`} ref={caro}>
-                <h1 className='text-4xl'>
+                <h1 className='lg:text-4xl md:text-[2.2rem] sm:[2.2rem] '>
                   We provide special disability suppport service
-                  <span className='font-bold'> supervise by a specialist GP 24/7</span>
+                  <span className='font-bold'> supervised by a specialist GP 24/7</span>
 
                 </h1>
                 <span>
                   <button type="button"
 
-                    className="w-[40%] text-white bg-red-700 hover:bg-red-600 focus:ring-4 focus:ring-red-300 font-medium rounded  px-5 py-4">
+                    className="lg:w-[40%] md:w-[70%] sm:w-[100%] text-white bg-red-700 hover:bg-red-600 focus:ring-4 focus:ring-red-300 font-medium rounded  px-5 py-4">
                     Work with us</button>
                 </span>
               </div>
@@ -48,10 +48,10 @@ export default function Home() {
             </div>
           </div>
           {/* slide 2 */}
-          <div className="flex  h-full items-center justify-center ">
-            <div className={styles.caro + ' grid-cols-2 flex justify-start lg:pl-20 sm:pl-2 lg:pt-40 sm:pt-20  w-full'}>
+          <div className="flex lg:h-[70vh] md:h-[50vh] sm:h-[50vh] xl:h-[70vh] items-center justify-center">
+            <div className={styles.caro + '  grid-cols-2 flex justify-start pl-20  pt-40  w-full'}>
               <div className={`${activeCaro1 ? (styles.slide) : ''} lg:w-[36%] sm:w-full flex flex-col gap-5`} ref={caro1}>
-                <h1 className='text-4xl '>
+                <h1 className='lg:text-4xl md:text-[2.2rem] sm:[2.2rem]  '>
                   Our support and services are tailored
                   <span className='font-bold'> to meet your needs</span>
 
@@ -59,7 +59,7 @@ export default function Home() {
                 <span>
                   <button type="button"
 
-                    className="w-[40%] text-white bg-red-700 hover:bg-red-600 focus:ring-4 focus:ring-red-300 font-medium rounded  px-5 py-4">
+                    className="lg:w-[40%] md:w-[70%] sm:w-[100%] text-white bg-red-700 hover:bg-red-600 focus:ring-4 focus:ring-red-300 font-medium rounded  px-5 py-4">
                     Work with us</button>
                 </span>
               </div>
@@ -67,10 +67,10 @@ export default function Home() {
             </div>
           </div>
           {/* slide 3*/}
-          <div className="flex  h-full items-center justify-center ">
-            <div className={styles.caro + ' grid-cols-2 flex justify-start lg:pl-20 sm:pl-2 lg:pt-40 sm:pt-20  w-full'}>
+          <div className="flex lg:h-[70vh] md:h-[50vh] sm:h-[50vh] xl:h-[70vh] items-center justify-center">
+            <div className={styles.caro + '  grid-cols-2 flex justify-start pl-20  pt-40  w-full'}>
               <div className={`${activeCaro2 ? (styles.slide) : ''} lg:w-[36%] sm:w-full flex flex-col gap-5`} ref={caro2}>
-                <h1 className='text-4xl '>
+                <h1 className='lg:text-4xl md:text-[2.2rem] sm:[2.2rem]  '>
                   We are ready to go on your
                   <span className='font-bold'> life's journey with you</span>
 
@@ -78,7 +78,7 @@ export default function Home() {
                 <span>
                   <button type="button"
 
-                    className="w-[40%] text-white bg-red-700 hover:bg-red-600 focus:ring-4 focus:ring-red-300 font-medium rounded  px-5 py-4">
+                    className="lg:w-[40%] md:w-[70%] sm:w-[100%] text-white bg-red-700 hover:bg-red-600 focus:ring-4 focus:ring-red-300 font-medium rounded  px-5 py-4">
                     Work with us</button>
                 </span>
               </div>
@@ -87,9 +87,9 @@ export default function Home() {
           </div>
           {/* slide 4 */}
           <div className="flex h-full items-center justify-center">
-            <div className={styles.caro + ' grid-cols-2 flex justify-start lg:pl-20 sm:pl-2 lg:pt-40 sm:pt-20  w-full'}>
+            <div className={styles.caro + '  grid-cols-2 flex justify-start pl-20  pt-40  w-full'}>
               <div className={`${activeCaro3 ? (styles.slide) : ''} lg:w-[36%] sm:w-full flex flex-col gap-5`} ref={caro3}>
-                <h1 className='text-5xl '>
+                <h1 className='lg:text-4xl md:text-[2.2rem] sm:[2.2rem]  '>
                   Let's make your life
                   <span className='font-bold'> easier</span>
 
@@ -97,7 +97,7 @@ export default function Home() {
                 <span>
                   <button type="button"
 
-                    className="w-[40%] text-white bg-red-700 hover:bg-red-600 focus:ring-4 focus:ring-red-300 font-medium rounded  px-5 py-4">
+                    className="lg:w-[40%] md:w-[70%] sm:w-[100%] text-white bg-red-700 hover:bg-red-600 focus:ring-4 focus:ring-red-300 font-medium rounded  px-5 py-4">
                     Work with us</button>
                 </span>
               </div>
@@ -145,13 +145,13 @@ export default function Home() {
 
           <div className="grid gap-8  lg:mt-0 lg:grid-cols-12 lg:gap-y-16 md:grid-cols-6 sm:grid-cols-6">
             <div className='col-span-6'>
-              <img src='/tss1.png' />
+              <img src='/dimitri.jpeg' />
             </div>
 
-            <div className={`${isActive ? (styles.slide) : ''} col-span-6 flex flex-col gap-10 pt-20`} ref={myRef}>
+            <div className={`${isActive ? (styles.slide) : ''} col-span-6 flex flex-col gap-10 `} ref={myRef}>
               <span className='text-red-700 text-xl font-bold'>What is our mission ?</span>
-              <h1 className='lg:text-5xl md:text-3xl sm:text-3xl'>
-                Building The Capacity Of Persons Living With A Disability, <span className='font-bold'>To Live Their Lives Beyond Limit.</span>
+              <h1 className='lg:text-4xl md:text-3xl sm:text-3xl'>
+                Building The Capacity Of Persons Living With A Disability, <span className='font-extrabold'>To Live Their Lives Beyond Limit.</span>
               </h1>
               <span className=''>We employ an individualised and holistic care approach
                 which helps us determine our participant's strength, weakness and abilities.</span>
@@ -177,9 +177,9 @@ export default function Home() {
 
             <div className='col-span-6 flex flex-col gap-10 pt-20'>
               <span className='text-red-700 text-xl font-bold'>LET US WORK TOGETHER</span>
-              <h1 className='lg:text-5xl md:text-3xl sm:text-3xl'>
+              <h1 className='lg:text-4xl md:text-3xl sm:text-3xl'>
 
-                WE ARE READY TO GO ON YOUR  <span className='font-bold'>LIFE'S JOURNEY WITH YOU</span>
+                WE ARE READY TO GO ON YOUR  <span className='font-extrabold'>LIFE'S JOURNEY WITH YOU</span>
               </h1>
               <span className=''>Get in touch with us today, we reply within 24 hours.</span>
               <span className=''>You can ring us on <span className='font-bold'>+61 (0) 49932 2078</span> we are available 24/7.</span>
@@ -204,10 +204,12 @@ export default function Home() {
               <FaPlay className='w-8 h-8 text-white text-center' /></button>
           </div>
 
-          <h1 className='text-white lg:text-5xl md:text-3xl sm:text-3xl text-center'>Helping you live your life beyond limits is what we stand for.
+          <h1 className='text-white lg:text-4xl md:text-3xl sm:text-3xl text-center'>Helping you live your life beyond limits is what we stand for.
 
             <span className='font-bold'>
               <br />
+              <br />
+
               Think it!!! YES, we can do it!!!</span>
           </h1>
           <button type="button"

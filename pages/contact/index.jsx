@@ -6,7 +6,7 @@ const Contact = () => {
 
         <>
             <div className={styles.header + ' w-full mt-2'}  >
-                <div className='flex  gap-4 pt-20 pl-20 justify-start items-center'>
+                <div className=' gap-4 pt-20 lg:pl-20 xl:pl-32 md:pl-20 sm:pl-20 lg:justify-start md:justify-center sm:justify-center items-center'>
 
 
                     <h1 className='text-white font-bold text-5xl text-left'>
@@ -36,7 +36,7 @@ const Contact = () => {
 
 
                         <div className='col-span-4 py-4'>
-                            <a href="#" className="flex px-4 py-4 flex-col items-center bg-white border border-gray-200 rounded-lg  md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
+                            <a href="#" className="flex px-4 py-4 flex-col items-center bg-white border border-gray-200 rounded-lg  md:flex-row md:max-w-xl">
                                 <FaPhone className='w-10 h-10' />
                                 <div className="flex flex-col justify-between p-4 leading-normal">
                                     <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Phone Number</h5>
@@ -48,7 +48,7 @@ const Contact = () => {
                             </a>
                         </div>
                         <div className='col-span-4 py-4'>
-                            <a href="#" className="flex px-4 py-4 flex-col items-center bg-white border border-gray-200 rounded-lg  md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
+                            <a href="#" className="flex px-4 py-4 flex-col items-center bg-white border border-gray-200 rounded-lg  md:flex-row md:max-w-xl">
                                 <FaEnvelopeOpen className='w-10 h-10' />
                                 <div className="flex flex-col justify-between p-4 leading-normal">
                                     <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Email</h5>
@@ -61,7 +61,7 @@ const Contact = () => {
                         </div>
 
                         <div className='col-span-4 py-4'>
-                            <a href="#" className="flex px-4 py-4 flex-col items-center bg-white border border-gray-200 rounded-lg  md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
+                            <a href="#" className="flex px-4 py-4 flex-col items-center bg-white border border-gray-200 rounded-lg  md:flex-row md:max-w-xl">
                                 <FaMapPin className='w-10 h-10' />
                                 <div className="flex flex-col justify-between p-4 leading-normal">
                                     <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Address</h5>

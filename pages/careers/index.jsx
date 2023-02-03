@@ -4,7 +4,7 @@ const Careers = () => {
         <>
 
             <div className={styles.header + ' w-full mt-2'}  >
-                <div className='flex  gap-4 pt-20 pl-20 justify-start items-center'>
+                <div className=' gap-4 pt-20 lg:pl-20 xl:pl-32 md:pl-20 sm:pl-20 lg:justify-start md:justify-center sm:justify-center items-center'>
 
 
                     <h1 className='text-white font-bold text-5xl text-left'>
