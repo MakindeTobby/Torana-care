@@ -12,6 +12,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   const { ref: myRef, inView: isActive, } = useInView();
+  const { ref: myRef1, inView: isActive1, } = useInView();
   const { ref: caro, inView: activeCaro, } = useInView();
   const { ref: caro1, inView: activeCaro1, } = useInView();
   const { ref: caro2, inView: activeCaro2, } = useInView();
@@ -27,86 +28,94 @@ export default function Home() {
   // }, [])
   return (
     <>
-      <div className="h-[70vh] sm:h-[50vh] xl:h-[70vh] 2xl:h-96 rounded-none mb-5">
-        <Carousel rounded='false'>
-          {/* slide 1 */}
-          <div className="flex lg:h-[70vh] md:h-[50vh] sm:h-[50vh] xl:h-[70vh] items-center justify-center">
-            <div className={styles.caro + ' grid-cols-2 flex justify-start pl-20  pt-40  w-full'}>
-              <div className={`${activeCaro ? (styles.slide) : ''} lg:w-[36%] sm:w-full flex flex-col gap-5`} ref={caro}>
-                <h1 className='lg:text-4xl md:text-[2.2rem] sm:[2.2rem] '>
-                  We provide special disability suppport service
-                  <span className='font-bold'> supervised by a specialist GP 24/7</span>
+      <Head>
+        <title>Home - Torana-care</title>
+        <meta name="description" content="We care about you" />
+        <meta property="og:title" content="Home - My Torana-care" />
+        <meta property="og:description" content="we care about you" />
+        {/* <meta property="og:url" content="https://myclothingstore.com/about" /> */}
+        <meta property="og:type" content="website" />
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
+      <div className="h-80 sm:h-80 md:h-80 lg:h-[70vh] xl:h-[70vh] 2xl:h-[70vh]">
+        <Carousel>
 
-                </h1>
-                <span>
-                  <button type="button"
 
-                    className="lg:w-[40%] md:w-[70%] sm:w-[100%] text-white bg-red-700 hover:bg-red-600 focus:ring-4 focus:ring-red-300 font-medium rounded  px-5 py-4">
-                    Work with us</button>
-                </span>
-              </div>
+          <div className={styles.caro + ` flex h-full items-center justify-start 
+          p-6 sm:p-6 md:p-20 lg:p-28 xl:p-28 2xl:p-28`} >
+            <div className={`${activeCaro ? (styles.slide) : ''} lg:w-[42%] sm:w-full flex flex-col gap-5`} ref={caro}>
+              <h1 className='lg:text-4xl md:text-[2.2rem] sm:[2.2rem] '>
+                We provide special disability suppport service
+                <span className='font-extrabold'> supervised by a specialist GP 24/7</span>
 
+              </h1>
+              <span>
+                <button type="button"
+
+                  className="lg:w-[40%] md:w-[40%] sm:w-[100%] text-white bg-red-700 hover:bg-red-600 focus:ring-4 focus:ring-red-300 font-medium rounded  px-5 py-4">
+                  Work with us</button>
+              </span>
             </div>
           </div>
-          {/* slide 2 */}
-          <div className="flex lg:h-[70vh] md:h-[50vh] sm:h-[50vh] xl:h-[70vh] items-center justify-center">
-            <div className={styles.caro + '  grid-cols-2 flex justify-start pl-20  pt-40  w-full'}>
-              <div className={`${activeCaro1 ? (styles.slide) : ''} lg:w-[36%] sm:w-full flex flex-col gap-5`} ref={caro1}>
-                <h1 className='lg:text-4xl md:text-[2.2rem] sm:[2.2rem]  '>
-                  Our support and services are tailored
-                  <span className='font-bold'> to meet your needs</span>
 
-                </h1>
-                <span>
-                  <button type="button"
 
-                    className="lg:w-[40%] md:w-[70%] sm:w-[100%] text-white bg-red-700 hover:bg-red-600 focus:ring-4 focus:ring-red-300 font-medium rounded  px-5 py-4">
-                    Work with us</button>
-                </span>
-              </div>
+          <div className={styles.caro + ` flex h-full items-center justify-start 
+          p-6 sm:p-6 md:p-20 lg:p-28 xl:p-28 2xl:p-28`} >
+            <div className={`${activeCaro1 ? (styles.slide) : ''} lg:w-[42%] sm:w-full flex flex-col gap-5`} ref={caro1}>
+              <h1 className='lg:text-4xl md:text-[2.2rem] sm:[2.2rem]  '>
+                Our support and services are tailored
+                <span className='font-extrabold'> to meet your needs</span>
 
+              </h1>
+              <span>
+                <button type="button"
+
+                  className="lg:w-[40%] md:w-[40%] sm:w-[100%] text-white bg-red-700 hover:bg-red-600 focus:ring-4 focus:ring-red-300 font-medium rounded  px-5 py-4">
+                  Work with us</button>
+              </span>
             </div>
           </div>
-          {/* slide 3*/}
-          <div className="flex lg:h-[70vh] md:h-[50vh] sm:h-[50vh] xl:h-[70vh] items-center justify-center">
-            <div className={styles.caro + '  grid-cols-2 flex justify-start pl-20  pt-40  w-full'}>
-              <div className={`${activeCaro2 ? (styles.slide) : ''} lg:w-[36%] sm:w-full flex flex-col gap-5`} ref={caro2}>
-                <h1 className='lg:text-4xl md:text-[2.2rem] sm:[2.2rem]  '>
-                  We are ready to go on your
-                  <span className='font-bold'> life's journey with you</span>
 
-                </h1>
-                <span>
-                  <button type="button"
 
-                    className="lg:w-[40%] md:w-[70%] sm:w-[100%] text-white bg-red-700 hover:bg-red-600 focus:ring-4 focus:ring-red-300 font-medium rounded  px-5 py-4">
-                    Work with us</button>
-                </span>
-              </div>
+          <div className={styles.caro + ` flex h-full items-center justify-start 
+          p-6 sm:p-6 md:p-20 lg:p-28 xl:p-28 2xl:p-28`} >
+            <div className={`${activeCaro2 ? (styles.slide) : ''} lg:w-[42%] sm:w-full flex flex-col gap-5`} ref={caro2}>
+              <h1 className='lg:text-4xl md:text-[2.2rem] sm:[2.2rem]  '>
+                We are ready to go on your
+                <span className='font-extrabold'> life's journey with you</span>
 
+              </h1>
+              <span>
+                <button type="button"
+
+                  className="lg:w-[40%] md:w-[40%] sm:w-[100%] text-white bg-red-700 hover:bg-red-600 focus:ring-4 focus:ring-red-300 font-medium rounded  px-5 py-4">
+                  Work with us</button>
+              </span>
             </div>
           </div>
-          {/* slide 4 */}
-          <div className="flex h-full items-center justify-center">
-            <div className={styles.caro + '  grid-cols-2 flex justify-start pl-20  pt-40  w-full'}>
-              <div className={`${activeCaro3 ? (styles.slide) : ''} lg:w-[36%] sm:w-full flex flex-col gap-5`} ref={caro3}>
-                <h1 className='lg:text-4xl md:text-[2.2rem] sm:[2.2rem]  '>
-                  Let's make your life
-                  <span className='font-bold'> easier</span>
 
-                </h1>
-                <span>
-                  <button type="button"
+          <div className={styles.caro + ` flex h-full items-center justify-start 
+          p-6 sm:p-6 md:p-20 lg:p-28 xl:p-28 2xl:p-28`} >
+            <div className={`${activeCaro3 ? (styles.slide) : ''} lg:w-[42%] sm:w-full flex flex-col gap-5`} ref={caro3}>
+              <h1 className='lg:text-4xl md:text-[2.2rem] sm:[2.2rem]  '>
+                Let's make your life
+                <span className='font-extrabold'> easier</span>
 
-                    className="lg:w-[40%] md:w-[70%] sm:w-[100%] text-white bg-red-700 hover:bg-red-600 focus:ring-4 focus:ring-red-300 font-medium rounded  px-5 py-4">
-                    Work with us</button>
-                </span>
-              </div>
+              </h1>
+              <span>
+                <button type="button"
 
+                  className="lg:w-[40%] md:w-[40%] sm:w-[100%] text-white bg-red-700 hover:bg-red-600 focus:ring-4 focus:ring-red-300 font-medium rounded  px-5 py-4">
+                  Work with us</button>
+              </span>
             </div>
           </div>
+
+
+
         </Carousel>
       </div>
+
       <div className=" w-full bg-slate-100 flex justify-center mt-5 py-10" >
         <div className='flex flex-col gap-4 pt-10 justify-center items-center w-full'>
           <span className='text-red-700 text-xl font-bold text-center'>We Believe Every Participant Should Feel Safe And Comfortable</span>
@@ -176,7 +185,7 @@ export default function Home() {
 
           <div className="grid gap-8  lg:mt-0 lg:grid-cols-12 lg:gap-y-16 md:grid-cols-6 sm:grid-cols-6">
 
-            <div className='col-span-6 flex flex-col gap-8'>
+            <div className={`${isActive1 ? (styles.slide) : ''} col-span-6 flex flex-col gap-10 `} ref={myRef1}>
               <span className='text-red-700 text-xl font-bold'>LET US WORK TOGETHER</span>
               <h1 className='lg:text-4xl md:text-3xl sm:text-3xl'>
 

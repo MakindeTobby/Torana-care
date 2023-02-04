@@ -4,7 +4,7 @@ import { Button } from "flowbite-react";
 export default function NavBar() {
 
     return (
-        <div className="max-w-full px-4 py-3 mx-auto sm:px-6 lg:px-8 bg-white sticky top-0 mb-5 z-10">
+        <div className="max-w-full px-4 lg:px-24 py-3 mx-auto sm:px-6  bg-white sticky top-0 mb-5 z-10">
 
             <Navbar
                 fluid={true}

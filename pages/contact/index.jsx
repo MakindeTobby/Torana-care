@@ -6,10 +6,10 @@ const Contact = () => {
 
         <>
             <div className={styles.header + ' w-full mt-2'}  >
-                <div className=' gap-4 pt-20 lg:pl-20 xl:pl-32 md:pl-20 sm:pl-20 lg:justify-start md:justify-center sm:justify-center items-center'>
+                <div className='gap-4 pt-20 lg:pl-20 xl:pl-32 md:pl-20 sm:pl-20 lg:justify-start md:justify-center sm:justify-center items-center'>
 
 
-                    <h1 className='text-white font-bold text-5xl text-left animate__animated animate__fadeInRight'>
+                    <h1 className='text-white font-bold text-5xl text-left animate__animated animate__fadeInUp'>
                         CONTACT US
                     </h1>
 
@@ -18,14 +18,14 @@ const Contact = () => {
             </div>
             <div className=" w-full bg-slate-100 flex justify-center mt-3 py-10" >
                 <div className='flex flex-col gap-4 pt-10 justify-center items-center lg:w-1/2 md:w-full sm:w-full'>
-                    <span className='text-5xl text-center animate__animated animate__fadeInLeft'>
+                    <span className='text-5xl text-center animate__animated animate__fadeInUp'>
                         WE ARE ALWAYS
                         <span className='font-extrabold'> AVAILABE AT YOUR SERVICE.</span>
                     </span>
 
 
 
-                    <span className='text-center animate__animated animate__fadeInRight'>
+                    <span className='text-center animate__animated animate__fadeInUp'>
                         Come and visit our quarters or simply send us an email anytime you want </span>
 
                 </div>

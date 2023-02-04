@@ -1,0 +1,53 @@
+.navbar {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+.navbar-brand {
+    color: #fff;
+    font-size: 1.25rem;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.navbar-menu {
+    display: flex;
+}
+
+.navbar-item {
+    color: #fff;
+    font-size: 1rem;
+    margin-right: 1rem;
+    text-decoration: none;
+}
+
+.navbar-link:hover {
+    color: #fff;
+    cursor: pointer;
+}
+
+.navbar-dropdown {
+    background-color: #333;
+    color: #fff;
+    display: block;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1;
+}
+
+.navbar-dropdown .navbar-item {
+    display: block;
+    padding: 0.5rem 1rem;
+    width: 100%;
+}
+
+.navbar-dropdown .navbar-item:hover {
+    background-color: #555;
+    color: #fff;
+    cursor: pointer;
+}

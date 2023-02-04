@@ -8,10 +8,10 @@ export default function Cald() {
         <>
 
             <div className={styles.down + ' w-full mt-2'}  >
-                <div className='flex  gap-4 lg:pt-20 md:pt-10 sm:pt-10 lg:pl-20 md:pl-10 sm:pl-10 lg:justify-start md:justify-center sm:justify-center items-center'>
+                <div className='gap-4 pt-20 lg:pl-20 xl:pl-32 md:pl-20 sm:pl-20 lg:justify-start md:justify-center sm:justify-center items-center'>
 
 
-                    <h1 className='text-white font-bold text-4xl lg:text-left md:text-center sm:text-center'>
+                    <h1 className='text-white font-bold text-4xl lg:text-left md:text-center sm:text-center animate__animated animate_fadeInUp'>
                         CALD(Culturally And Linguistically Diverse) Community Participation
                     </h1>
 
@@ -19,7 +19,7 @@ export default function Cald() {
 
             </div>
 
-            <div className="max-w-screen-xl px-4 pt-16 mx-auto sm:px-6 lg:px-8">
+            <div className="max-w-screen-xl px-4 pt-16 mx-auto sm:px-6 lg:px-8 animate__animated animate__fadeInUp">
                 <div className="lg:flex lg:items-start lg:gap-8">
 
                     <div className="grid gap-8 mt-8 lg:mt-0 lg:grid-cols-12 lg:gap-y-16 md:grid-cols-6 sm:grid-cols-6">
@@ -37,17 +37,19 @@ export default function Cald() {
                             <span>
                                 We would like to hear from you.
                             </span>
+                            <button type="button"
+                                className="lg:w-[30%] md:w-[20%] sm:w-[100%] text-white bg-red-700 hover:bg-red-600 focus:ring-4 focus:ring-red-300 font-medium rounded  px-5 py-4">
+                                <Link href={"/contact"} >Contact Us</Link></button>
 
                         </div>
 
                     </div>
 
+
                 </div>
 
                 <div className='pt-10 md:px-0 sm:px-3'>
-                    <button type="button"
-                        className="lg:w-[15%] md:w-[20%] sm:w-[100%] text-white bg-red-700 hover:bg-red-600 focus:ring-4 focus:ring-red-300 font-medium rounded  px-5 py-4">
-                        <Link href={"/contact"} >Contact Us</Link></button>
+
                 </div>
             </div>
 

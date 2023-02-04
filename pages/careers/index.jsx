@@ -8,7 +8,7 @@ const Careers = () => {
                 <div className=' gap-4 pt-20 lg:pl-20 xl:pl-32 md:pl-20 sm:pl-20 lg:justify-start md:justify-center sm:justify-center items-center'>
 
 
-                    <h1 className='text-white font-bold text-5xl text-left animate__animated animate__fadeInRight'>
+                    <h1 className='text-white font-bold text-5xl text-left animate__animated animate_fadeInUp'>
                         CAREERS
                     </h1>
 

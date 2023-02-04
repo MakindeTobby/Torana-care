@@ -8,10 +8,10 @@ export default function Capacity() {
         <>
 
             <div className={styles.down + ' w-full mt-2'}  >
-                <div className='flex  gap-4 pt-20 lg:pl-20 md:pl-10 sm:pl-10 lg:justify-start md:justify-center sm:justify-center items-center'>
+                <div className='gap-4 pt-20 lg:pl-20 xl:pl-32 md:pl-20 sm:pl-20 lg:justify-start md:justify-center sm:justify-center items-center'>
 
 
-                    <h1 className='text-white font-bold text-4xl lg:text-left md:text-center sm:text-center animate__animated animate__fadeInRight'>
+                    <h1 className='text-white font-bold text-4xl lg:text-left md:text-center sm:text-center animate__animated animate_fadeInUp'>
                         Capacity Building Support And Services
                     </h1>
 
